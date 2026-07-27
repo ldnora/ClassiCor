@@ -43,7 +43,7 @@ A arquitetura HybridECGClassifier integra dois branches especializados fundidos 
 
 # Métricas de Avaliação
 
-O modelo é avaliado no test set canônico do GOLD (452 registros). As métricas calculadas são:
+O modelo é avaliado no test set canônico do GOLD (422 registros). As métricas calculadas são:
 - AUC-ROC: principal métrica — meta >= 0,95
 - Accuracy: acurácia geral no test set
 - F1 Macro: média dos F1 de ambas as classes

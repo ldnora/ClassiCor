@@ -13,7 +13,7 @@ de transforms (augmentação para treino, normalização para validação/teste)
 
 >   Por que o SILVER KNN como base dos splits?
 >
->   Ao usar o SILVER KNN (3.481 registros) como base, o split de treino conterá mais exemplos do que o GOLD (3.013), aproveitando os registros com imputação KNN de baixa intensidade (1,67%). O testset canônico (452 registros do GOLD) é carregado pelo script_09 independentemente — o script_08 não precisa saber do test set do GOLD.
+>   Ao usar o SILVER KNN (3.481 registros) como base, o split de treino conterá mais exemplos do que o GOLD (3.013), aproveitando os registros com imputação KNN de baixa intensidade (1,67%). O testset canônico (422 registros do GOLD) é carregado pelo script_09 independentemente — o script_08 não precisa saber do test set do GOLD.
 
 
 
@@ -84,7 +84,7 @@ O script executa automaticamente 5 testes de sanidade antes de finalizar:
 #
 >    Atenção — test_indices.npy gerado pelo script_08 vs. test canônico GOLD:
 >    O script_08 gera um test_indices.npy baseado no SILVER KNN. O script_09, porém, carrega o test
->    set CANÔNICO do GOLD (452 registros) para avaliação final. Portanto, o test_indices.npy do SILVER
+>    set CANÔNICO do GOLD (422 registros) para avaliação final. Portanto, o test_indices.npy do SILVER
 >    KNN gerado aqui NÃO é usado diretamente na avaliação do script_09. O script_09 exige que o test
 >    set canônico do GOLD (gerado anteriormente em uma execução do script_08 com GOLD) esteja
 >    disponível em splits/test_indices.npy. Veja a primeira seção do script 09
