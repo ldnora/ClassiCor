@@ -1,13 +1,13 @@
-# PrediCuori
+# ClassiCor
 
 
-PrediCuori: sistema inteligente para predição de eventos cardiovasculares anormais: integração de ecg e dados clínicos usando inteligência artificial.
+ClassiCor: sistema inteligente para a classificação de eventos cardiovasculares anormais: integração de ecg e dados clínicos usando inteligência artificial.
 
 
 
 ## Boas-vindas
 
-Olá! Espero que você, querido leitor, esteja bem. 
+Olá! Espero que você, querido leitor, esteja bem. Se não estiver, vai melhorar.
 
 Eu sou o Leandro Dalla Nora e quero dar as boas-vindas ao meu Trabalho de Conclusão de Curso do Bacharelado em Sistemas de Informação pela Universidade Federal de Santa Maria. 
 
@@ -94,11 +94,11 @@ Calma jovem, vou lhe explicar:
 
 Clone o repositório usando HTTPS, SSH ou GitHub CLI:
 
-`git clone https://github.com/ldnora/PrediCuori.git`
+`git clone https://github.com/ldnora/ClassiCor.git`
 
-`git clone git@github.com:ldnora/PrediCuori.git`
+`git clone git@github.com:ldnora/ClassiCor.git`
 
-`gh repo clone ldnora/PrediCuori`
+`gh repo clone ldnora/ClassiCor`
 
 
 #### Configuração do ambiente
